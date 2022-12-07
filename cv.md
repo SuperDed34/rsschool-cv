@@ -10,7 +10,6 @@ My CV
   return a * b;
 }
 ```
-
 6. **Work experience**: https://github.com/SuperDed34/rsschool-cv/blob/gh-pages/cv.md 
 7. **Education**: _Nope_.
 8. **English language level**: _Nope_.
