@@ -15,6 +15,9 @@
 html {
     scroll-behavior: smooth; 
   }
+  h1 {
+    text-align: center;
+  }
 .logo{
 display:inline;
 height: 50px;
@@ -76,12 +79,13 @@ margin: 15px 5px;
     margin: 0 auto;
   }
 .img {
-    height: 500px;
-    width: 500px;
+    height: 150px;
+    width: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    margin-left: 23%;
+    margin-left: 42%;
+    margin-bottom: 5px;
     color: hsl(0, 100%, 50%);
 } 
 
@@ -99,4 +103,15 @@ margin: 15px 5px;
   justify-content: center;
   border-left: 2px solid;
   }
+
+  code{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    padding: 1px;
+    margin: 3px;
+    border: 1px dashed black;
+    background-color: aliceblue;
+  }
+
   
