@@ -28,42 +28,53 @@
     </div>
   </header>
   <main class="main">
-    <div class="img"><img src="/pictures/ded.jpg" alt="WhiIsSuperDed"></div>
-    <div class="container">
+    <container class="img"><img src="/pictures/ded.jpg" alt="WhoIsSuperDed"></container>
+    <wrapper class="wrapper">
+    <h1>My SV</h1>
         <strong>Name</strong> Maksim <strong>Surname</strong> Shirokovskii
-        <div id="summary">Brief information about myself: My name is Maxim, 29 years old, currently working as a Project Manager not in the IT field. I want to learn JS to get out of a job that I'm tired of.</div>
+        <container class="container-main" id="summary"><h2>Brief information about myself:</h2>My name is Maxim and I am 29 years old. 
+          I have never written anything like this and generally don't like to write about myself, but since I really want to learn JS
+           - I will do it. Before studying at RS School, the only experience was trying to learn PHP from open access materials on the
+            Internet. I am very purposeful and ready to learn and quickly absorb information, and given the situation in the world and 
+            the country, this is what is required now. I beg you not to judge strictly my first attempts to do something =) Have a good 
+            and productive day to anyone who reads to the end!
+          </container>
         
-        Skills (programming languages, frameworks, methodologies, version control systems and development tools that you own): PHP.
+        <container class="container-main" id="skills"><h2>Skills</h2> (programming languages, frameworks, methodologies, version control systems 
+          and development tools that you own): PHP.
+        </container>
         
-        Code samples:
-        function(a,b){
+        <container class=container-main id="samples"><h2>Samples</h2>
+       
+          function(a,b){
           return a * b;
         }
+       </container>
+        <container class="container-main"><h2>Work experience</h2> https://github.com/SuperDed34/rsschool-cv/blob/gh-pages/cv.md>
 
-        Work experience: https://github.com/SuperDed34/rsschool-cv/blob/gh-pages/cv.md
-       <div id="contact">
-            Contacts Discord: Max Shir (@SuperDed34)
-        </div>
+        </container>
+       <container class="container-main id="contact">
+            <h2>Contacts Discord</h2> Max Shir (@SuperDed34)
+        </container>
         
-        <div id="education">
-            Education: Automehanik =)
-        </div>
-        <p>Ghbdtn</p>
-       
-        <div id="english">
-            English language level: A-
-        </div>
+        <container class="container-main" id="education">
+            <h2>Education</h2> Automehanik =)
+        </container>
+               
+        <container class="container-main" id="english">
+            <h2>English language level</h2> A-
+        </container>
 
-    </div>
+    </wrapper>
   </main>
   <footer class="footer">
-    <div class="container">
-        <div>
-            <img class="logo" src="/pictures/rollingsc.jfif" alt="RollingScopesLogo">
-            <a class="nav-link" href="http://rs.school/">Rolling Scopes</a>
-        </div>
-        <div class="copyright">Copyright 2022, Istanbul</div>
-    </div>
+    <container class="container">
+        <container class="logo-container">
+           <a href="http://rs.school/"><img class="logo" src="/pictures/rs_school_js.svg" alt="RollingScopesLogo"></a>
+            <a class="link" href="http://rs.school/">Rolling Scopes.</a>
+        </container>
+        <container class="copyright" >Copyright 2022, Istanbul</container>
+    </container>
   </footer>
 </body>
 </html>
