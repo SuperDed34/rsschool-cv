@@ -18,11 +18,16 @@ html {
   h1 {
     text-align: center;
   }
+
+a:hover{
+ color: rgb(234, 11, 11);
+ text-decoration:underline;
+}
 .logo{
 display:inline;
-height: 50px;
-width: 50px;
-margin: 15px 5px;
+height: 80px;
+width: 80px;
+margin: 10px 5px;
 
   }
 .nav-list{
@@ -47,14 +52,23 @@ margin: 15px 5px;
 .link{
 
     padding: 15px 20px 0px;
+    margin-top: 10px;
     line-height: 50px;
     text-decoration: none;
     color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.link a:hover{
+  transition: color 0.5s;
+  color: #000;
 }
 .nav-item{
     display: inline; 
     margin-right: 5px; 
     padding: 3px;
+    
 }
 
 .header {
