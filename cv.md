@@ -39,5 +39,9 @@ I haven't work now (but I pray about find it ASAP +))).
 But You can find my pet projects in my [repo](https://github.com/SuperDed34) 
 
 Education
+1. **RSSCHOOL pre-school 2023 Q3**
+2. **Java by youtube**
+3. **CAVC English**
+
 
 English Language -> A2, and I still learn right now
